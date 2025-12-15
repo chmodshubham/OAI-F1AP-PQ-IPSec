@@ -150,10 +150,10 @@ To share the generated files with the client, you can use `scp` or any secure fi
 scp -r <IPSEC_MODE>/pki/ <user>@<client_ip>:/home/<user>/OAI-F1AP-PQ-IPSec/<IPSEC_MODE>/
 ```
 
-> **Parameters:**
+> [!NOTE]
 >
 > - `IPSEC_MODE`: Set to `classical` or `pq-support`.
-> - `AUTH_MODE`: The script may prompt or rely on config files for `certs` (Certificate-based) or `psk` (Pre-Shared Key).
+> - `AUTH_MODE`: Set to `certs` for certificate-based authentication or `psk` for pre-shared key authentication.
 
 ## Server Configuration (CU)
 
